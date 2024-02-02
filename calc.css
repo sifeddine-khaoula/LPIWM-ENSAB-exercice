@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+body {
+    min-height: 20vh ;
+    text-align: center; 
+    border: 5px outset black;
+
+}
+
+div h1 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: lightblue;
+}
+
+div input[type=number]{
+    margin: 7px;
+    padding: 3px;
+    width:20%;
+    text-align: center;
+}
+
+
+div input[type=number]:read-only{
+    width:16%;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+div button{
+    font-weight: bold;
+    padding: 3px;
+}
+
+div button:hover{
+    background-color: aquamarine;
+}
+
